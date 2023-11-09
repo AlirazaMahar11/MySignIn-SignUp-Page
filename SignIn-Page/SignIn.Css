@@ -1,0 +1,76 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logincontainer{
+    margin-top: 100px;
+    margin-left: 550px;
+    text-align: center;
+    border: 2px solid;
+    width: 450px;
+    height: 650px;
+    backdrop-filter: blur(30px);
+}
+
+#Span{
+    margin-top: 10px;
+    font-size: 150px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.email{
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid #035371;
+}
+
+.pass{
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid #035371;
+}
+
+.Loginbtn{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px; 
+    border: 3px solid #035371;
+}
+
+.Loginbtn:hover{
+    background-color:#035371;
+}
+
+.Forgotbtn{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:transparent;
+    color:white;
+    font-size: 20px;
+    border: 3px solid #035371;
+}
+
+span{
+    color: white;
+}
+
+a{
+    color: rgb(241, 228, 228);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

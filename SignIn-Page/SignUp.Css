@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1336300059/photo/abstract-black-curve-line-and-blue-gradient-background.jpg?s=612x612&w=0&k=20&c=YL1sXo-EoigDXigeVfj4UAnAXDI9M41XS-jjcIUXJBE=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: rgb(15, 22, 26);
+    margin-top: 5%;
+    margin-left: 550px;
+    width: 500px;
+    height: 620px;
+    border-radius: 20px;
+    background-color:transparent;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px;
+    border: 6px solid rgba(15, 17, 17, 0.1);
+    text-align: center;
+}
+
+#font{
+    font-size: 150px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    color:rgb(27, 12, 12);
+}
+
+.input1{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    
+}
+
+.input2{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    
+}
+a{
+  color: black;  
+}
+
+.Span{
+    margin-right: 320px;
+}
+
+button{
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color:rgb(71, 1, 1);
+    color: white;
+}

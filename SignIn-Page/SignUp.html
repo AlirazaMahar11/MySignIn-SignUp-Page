@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My SignUp Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="SignUp.Css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+</head>
+<body>
+    <div class="border">
+        <br>
+        <i class="fa-solid fa-user" id="font"></i><br><br><br>
+        <span class="Span">Email</span>
+        <br>
+    <input class="input1" placeholder="Enter Your Eamil" type="text" id="email">
+    <br><br>
+        <span class="Span">Password</span>
+        <br>
+    <input class="input2" placeholder="Enter Your Password" type="password" id="pass">
+
+    <button onclick="getValue()"><strong>Sign up</strong></button>
+    <br><br>
+        <span>______________OR______________</span>
+    <br><br>
+    <i class="fa-brands fa-google" onclick="GoogleloginAuth()"></i>&nbsp;<i class="fa-brands fa-facebook"></i>&nbsp;<i class="fa-brands fa-tiktok"></i>
+    <br>
+    <a href="SignIn.html">Don`t have an account?<strong>Register</strong></a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
